@@ -1,0 +1,21 @@
+-- Create a new database and schema (optional, safe demo)
+USE DATABASE LA_DB;
+USE SCHEMA LA_SCHEMA;
+
+-- Use the new schema
+USE SCHEMA demo_db.demo_schema;
+
+-- Create a simple table
+CREATE OR REPLACE TABLE employees (
+    id INT,
+    name STRING,
+    department STRING
+);
+
+-- Insert 2 records
+INSERT INTO employees (id, name, department) VALUES
+    (1, 'Alice', 'Engineering'),
+    (2, 'Bob', 'Finance');
+
+-- Display the data
+SELECT * FROM employees;
