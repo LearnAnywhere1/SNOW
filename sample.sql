@@ -2,8 +2,7 @@
 USE DATABASE LA_DB;
 USE SCHEMA LA_SCHEMA;
 
--- Use the new schema
-USE SCHEMA demo_db.demo_schema;
+
 
 -- Create a simple table
 CREATE OR REPLACE TABLE employees (
@@ -19,3 +18,4 @@ INSERT INTO employees (id, name, department) VALUES
 
 -- Display the data
 SELECT * FROM employees;
+
