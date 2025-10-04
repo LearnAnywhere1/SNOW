@@ -2,7 +2,7 @@
 USE DATABASE LA_DB;
 USE SCHEMA LA_SCHEMA;
 
-
+--
 
 -- Create a simple table
 CREATE OR REPLACE TABLE employees (
